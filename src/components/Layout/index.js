@@ -4,7 +4,10 @@ import { withTranslation } from 'react-i18next';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './../../i18n'
 
-const Topbar = React.lazy(() => import("./Topbar"));
+// const Topbar = React.lazy(() => import("./Topbar"));
+const Topbar = React.lazy(() =>
+  import("../../pages/Main/NavbarPage")
+);
 const FooterWithoutMenuLightSocialOnly = React.lazy(() =>
   import("./FooterWithoutMenuLightSocialOnly")
 );

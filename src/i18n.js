@@ -3,6 +3,7 @@ import LanguageDetector from "i18next-browser-languagedetector"
 import {initReactI18next} from 'react-i18next'
 import XHR from 'i18next-xhr-backend'
 import languageEN from './locate/en/translate.json'
+import languageRU from './locate/ru/translate.json'
 
 i18n
 .use(XHR)
@@ -10,7 +11,8 @@ i18n
 .use(initReactI18next)
 .init({
     resources: {
-        en: languageEN
+        en: languageEN,
+        ru: languageRU
     },
     // /* default language when load the website in browser */
     // lng: "en",

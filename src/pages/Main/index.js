@@ -1,20 +1,23 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import AOS from "aos";
-import img from "../../assets/images/worker_banner.png";
+import "../../../node_modules/aos/dist/aos.css";
 
-import MainHowItWork from "../../components/SharedElements/MainHowItWork";
-import MainIndustries from '../../components/SharedElements/MainIndustries'
-import MainFeatures from '../../components/SharedElements/MainFeatures'
-import Trial2 from '../../components/SharedElements/Trial2'
+import Section from "./Section";
+import Description from "./Description";
+import RobotTypes from "./RobotTypes";
+import ModalVideoSection from "./ModalVideo";
+import Shape from "./Shape";
+import HowItWork from "./HowItWork";
+import Contact from "./Contact";
+import Benefits from "./Benefits";
+import Industries from "./Industries";
 
 import CustomHelmet from "../../components/Service/CustomHelmet";
-import i18next from 'i18next';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-PSG8RPDW3G');
+ReactGA.initialize('G-G3CSMVPNW7');
 
-
-class Main extends Component {
+class Index extends Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -22,11 +25,48 @@ class Main extends Component {
 
   componentDidMount() {
     AOS.refresh();
-    document.getElementById("top-menu").classList.add("nav-light");
+
     document.body.classList = "";
     window.addEventListener("scroll", this.scrollNavigation, true);
+    var elementsTitle = document.getElementsByName("sectiontitle");
+    var elementsDesc = document.getElementsByName("sectiondesc");
+
+    for (var i = 0; i < elementsTitle.length; i++) {
+      elementsTitle[i].setAttribute("data-aos", "fade-up");
+      elementsTitle[i].setAttribute("data-aos-duration", "1200");
+      elementsDesc[i].setAttribute("data-aos", "fade-up");
+      elementsDesc[i].setAttribute("data-aos-duration", "1000");
+    }
+
+    // var elements = document.getElementsByName("clientsreview");
+    // for (var j = 0; j < elements.length; j++) {
+    //   elements[j].setAttribute("data-aos", "fade-up");
+    //   elements[j].setAttribute("data-aos-duration", "1800");
+    // }
+    // var features = document.getElementsByName("featurebox");
+    // for (var f = 0; f < features.length; f++) {
+    //   features[f].setAttribute("data-aos", "fade-up");
+    //   features[f].setAttribute("data-aos-duration", "1800");
+    // }
+
+    // var pricing = document.getElementsByName("pricing");
+    // for (var a = 0; a < pricing.length; a++) {
+    //   pricing[a].setAttribute("data-aos", "fade-up");
+    //   pricing[a].setAttribute("data-aos-duration", "1400");
+    // }
+    // var team = document.getElementsByName("team");
+    // for (var b = 0; b < team.length; b++) {
+    //   team[b].setAttribute("data-aos", "fade-up");
+    //   team[b].setAttribute("data-aos-duration", "1200");
+    // }
+    // var footer = document.getElementsByName("footercolumn");
+    // for (var fcol = 0; fcol < footer.length; fcol++) {
+    //   footer[fcol].setAttribute("data-aos", "fade-up");
+    //   footer[fcol].setAttribute("data-aos-duration", "1400");
+    // }
   }
 
+  
   componentWillUnmount() {
     window.removeEventListener("scroll", this.scrollNavigation, true);
   }
@@ -40,41 +80,38 @@ class Main extends Component {
       document.getElementById("topnav").classList.remove("nav-sticky");
     }
   };
-  
   render() {
     return (
       <React.Fragment>
         <CustomHelmet name="main" />
-        <section
-          className="bg-half-170 d-table w-100"
-          style={{ background: `url("${img}") center center` }}
+        <Section />
 
-        >
-          <div className="bg-overlay"></div>
-          <Container>
-            <Row className="align-items-center">
-              <Col lg={7} md={6}>
-                <div className="title-heading mt-4">
-                  <h2 className="display-5 font-weight-bold text-white title-dark mb-3">
-                    {i18next.t('home.main.title')}
-                  </h2>
-                  <p className="para-desc text-light">
-                    {i18next.t('home.main.description')}
-                  </p>
-                </div>
-              </Col>
-            </Row>
+        <section className="section pb-0" id="service">
+          <Description />
+          <Benefits />
+          <RobotTypes />
+        </section>
+          <HowItWork />
+          <Shape />
+
+        <section className="section bg-light" id="testimonial">
+          <ModalVideoSection />
+          <Container className="pt-5">
           </Container>
-          </section>
-          <br/><br/>
-          {/* <MainFeatures />  */}
-          <MainHowItWork />
-          <MainIndustries />
-          <Trial2 /> 
-          <a href="/page-error"></a>
+        </section>
+
+        <section className="section" id="pricing">
+          <Industries />
+        </section>
+
+        <section className="section pb-0" id="contact">
+          <Contact />
+          <a href="/page-error"/>
+        </section>
+        <br/>
       </React.Fragment>
     );
   }
 }
 
-export default Main;
+export default Index;

@@ -5,8 +5,8 @@ import {
   Container
 } from "reactstrap";
 import i18next from 'i18next';
+import logodark from "../../assets/images/logo.png";
 
-import logodark from "../../assets/images/logo-dark.png";
 //import logolight from "../../assets/images/logo-light.png";
 
 class Topbar extends Component {
@@ -169,7 +169,7 @@ class Topbar extends Component {
         <Container>
           <div>
             <Link className="logo" to="/">
-                <img src={logodark} id="brandLogo" height="24" alt="Mecht.Ai logo" />
+                <img src={logodark} id="brandLogo" height="34" alt="Mecht.Ai logo" />
               </Link>
             {/* <a className="logo" href="/">
               <img src={logodark} height="24" className="logo-light-mode" alt="Mecht.Ai logo" />
@@ -193,16 +193,6 @@ class Topbar extends Component {
               return (
                 
                 <div className="buy-button">
-                  <a
-                    href="https://mecht.ai/register"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    id="buyButton"
-                    className="btn btn-outline-primary btn-sm"
-                  >
-                    {i18next.t('header.trial')}
-                  </a>
-                  &nbsp;
                   <a
                     href="https://mecht.ai/login"
                     target="_blank"
@@ -390,6 +380,42 @@ class Topbar extends Component {
                   </li>
                 )
               )}
+
+              <li className="has-submenu">
+                      <Link
+                        //to={navLink.link}
+                        to="#"
+                        onClick={(event) => {
+                          event.preventDefault();
+                          this.setState({isOpenSubMenu3: !this.state.isOpenSubMenu3})
+                        }}
+                      >{i18next.t('common.language')}
+                      </Link>
+                      <span className="menu-arrow"></span>
+                        <ul
+                          className={
+                            this.state.isOpenSubMenu3 
+                            ? "submenu megamenu open"
+                            : "submenu megamenu"
+                          }
+                        >
+                          <li>
+                            <ul>
+                                  <li >
+                                    <Link to="#" onClick={() => this._setLanguage('ru-RU')}> 
+                                      RU
+                                    </Link>
+                                  </li>
+                                  <li >
+                                  <Link  to="#" onClick={() => this._setLanguage('en')}> 
+                                      EN
+                                    </Link>
+                                  </li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </li>
+
             </ul>
           </div>
         </Container>

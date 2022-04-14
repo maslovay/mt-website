@@ -1,0 +1,108 @@
+{
+    "translations": {
+        "pageData": {
+            "appName": "Mecht.ai",
+            "main":{
+                "main": "robot remote control platform",
+                "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
+                "keywords" :"Mecht.Ai, remote expert, remote control, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "block":{
+                "home": "Home",
+                "features": "Features",
+                "howitwork" : "How it work",
+                "industries" : "Industries",
+                "contact" : "Contact",
+                "signin" : "Sign In"
+            }
+        },
+        "common": {
+            "details": "Details",
+            "language": "RU"
+        },
+        "footer": {
+            "about": "For cooperation and technology acquisition, please contact us."
+        },
+        "home": {
+            "main": {
+                "title" :  "Платформа",
+                "description" :  "Mecht.Ai helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Mecht.Ai mobile app"
+            },
+            
+            "features":{
+                "title": "Key features",
+                "description": "Remotely controlled robots will be able to replace human labor in the tasks of delivery, rigging, utility services, when performing work in adverse conditions and in other labor-intensive tasks",
+                "feature1" : "feature1",
+                "description1" : "description1",
+                "feature2" : "feature1",
+                "description2" : "description1",
+                "feature3" : "feature1",
+                "description3" : "description1",
+                "feature4" : "feature1",
+                "description4" : "description1",
+                "feature5" : "feature1",
+                "description5" : "description1",
+                "feature6" : "feature1",
+                "description6" : "description1"
+            },
+
+            "howItWork": {
+                "title": "How start using Mecht.Ai service",
+                "description": "Remote expert is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
+                "step1": "Register and install app",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step2": "Buy smart glasses",
+                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
+                "step3": "Increase efficiency",
+                "step3Description": "You can call your employees with FPV video or track their activity with help of Mecht.Ai analytics portal"
+            },
+
+            "industries":{
+                "title": "List of industries",
+                "description": "Mecht.Ai service will increase the employees efficience, find and fix money leaks in different areas",
+                "manufactoring": "Manufactoring",
+                "oilgas": "Oil&Gas",
+                "landscaping": "Landscaping",
+                "constructing": "Constructing",
+                "other": "Other",
+                "delivery": "Delivery",
+                "cleaning": "Cleaning",
+                "technician": "Technician",
+                "security": "Security",
+                "healthcare": "Healthcare",
+                "agriculture": "Agriculture"
+            },
+
+            "description":{
+                "title" : "Real time platform",
+                "description" : "Mecht.ai help you to increase efficiency of you company services",
+                "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
+                "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
+                "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
+                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+            },
+
+            "benefits":{
+                "title" : "Benefits",
+                "description" : "Mecht.ai help you to increase efficiency of you company services",
+                "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
+                "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
+                "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
+                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+            }
+        },
+        "contact": {
+            "contact_us": "Contact Us:",
+            "send_succesfully": "Successfully sent",
+            "your_name": "Your name",
+            "your_email": "Your email",
+            "your_phone": "Your phone",
+            "subject": "Subject",
+            "request": "Request",
+            "send_message": "Send request",
+            "your_message": "Request",
+            "about_us_header": "About us",
+            "about_us_description": "Mecht.Ai is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+        }
+    }
+}
