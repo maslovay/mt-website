@@ -1,8 +1,8 @@
 {
-  "name": "Inpres",
+  "name": "Mecht.Ai",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://inpres.com",
+  "homepage": "https://Mecht.Ai.com",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.5",
     "aos": "^2.3.4",

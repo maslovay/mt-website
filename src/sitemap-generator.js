@@ -8,7 +8,7 @@ require("babel-register")({
   function generateSitemap() {
       return (
         new Sitemap(router)
-            .build("https://inpres.com")
+            .build("https://mecht.ai")
             .save("./public/sitemap.xml")
       );
   }

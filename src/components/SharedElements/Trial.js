@@ -22,7 +22,7 @@ class Trial extends Component {
 
               <Col md="4" className="mt-4 mt-sm-0">
                 <div className="text-md-end text-center">
-                  <a href="https://portal.inpres.com/register" className="btn btn-light">
+                  <a href="https://portal.Mecht.Ai.com/register" className="btn btn-light">
                     {i18next.t('trial.button')}
                   </a>
                 </div>

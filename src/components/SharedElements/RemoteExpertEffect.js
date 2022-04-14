@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img from "../../assets/images/remote_expert_inpres.jpeg";
+import img from "../../assets/images/remote_expert_Mecht.Ai.jpeg";
 
 class RemoteExpertEffect extends Component {
 

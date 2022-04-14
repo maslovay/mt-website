@@ -17,40 +17,34 @@ class Topbar extends Component {
       dropdownOpenShop: false,
       navLinks: [
         
-        {
-          id: 1,
-          title: i18next.t('header.features'),
-          link: "/#",
-          isMegaMenu: false,
-          isOpenSubMenu: false,
-          child: [
-            { id: 1, title: i18next.t('header.feature1'), link: "/features/remote-expert" },
-            { id: 2, title: i18next.t('header.feature2'), link: "/features/time-tracking" },
-            { id: 3, title: i18next.t('header.feature3'), link: "/features/location-tracking" },
-            { id: 4, title: i18next.t('header.feature4'), link: "/features/online-timesheet" },
-            { id: 5, title: i18next.t('header.feature5'), link: "/features/client-service-control" },
-            { id: 6, title: i18next.t('header.feature6'), link: "/features/tags-tracking" },
-          ],
-        },
         // {
-        //   id: 2,
-        //   title: i18next.t('header.industries'),
+        //   id: 1,
+        //   title: i18next.t('header.features'),
         //   link: "/#",
         //   isMegaMenu: false,
         //   isOpenSubMenu: false,
         //   child: [
-        //     { id: 1, title: i18next.t('header.industry1'), link: "/industries/constructing" },
-        //     { id: 2, title: i18next.t('header.industry2'), link: "/industries/landscaping" },
-        //     { id: 3, title: i18next.t('header.industry3'), link: "/industries/courier" },
-        //     { id: 4, title: i18next.t('header.industry4'), link: "/industries/oil-gas" },
-        //     { id: 5, title: i18next.t('header.industry5'), link: "/industries/manufacturing" },
-        //     { id: 6, title: i18next.t('header.industry6'), link: "/industries/cleaning" },
-        //     { id: 7, title: i18next.t('header.industry7'), link: "/industries/other-industries" }
         //   ],
         // },
-        { id: 3, title: i18next.t('header.industries'), link: "/industries/inpres-industries" },
-        { id: 4, title: i18next.t('header.glasses'), link: "/inpres-glasses" },
-        { id: 5, title: i18next.t('header.pricing'), link: "/pricing" },
+        // // {
+        // //   id: 2,
+        // //   title: i18next.t('header.industries'),
+        // //   link: "/#",
+        // //   isMegaMenu: false,
+        // //   isOpenSubMenu: false,
+        // //   child: [
+        // //     { id: 1, title: i18next.t('header.industry1'), link: "/industries/constructing" },
+        // //     { id: 2, title: i18next.t('header.industry2'), link: "/industries/landscaping" },
+        // //     { id: 3, title: i18next.t('header.industry3'), link: "/industries/courier" },
+        // //     { id: 4, title: i18next.t('header.industry4'), link: "/industries/oil-gas" },
+        // //     { id: 5, title: i18next.t('header.industry5'), link: "/industries/manufacturing" },
+        // //     { id: 6, title: i18next.t('header.industry6'), link: "/industries/cleaning" },
+        // //     { id: 7, title: i18next.t('header.industry7'), link: "/industries/other-industries" }
+        // //   ],
+        // // },
+        // { id: 3, title: i18next.t('header.industries'), link: "/industries/Mecht.Ai-industries" },
+        // { id: 4, title: i18next.t('header.glasses'), link: "/Mecht.Ai-glasses" },
+        // { id: 5, title: i18next.t('header.pricing'), link: "/pricing" },
       ],
       wishlistModal: false,
       dropdownIsOpen: false,
@@ -175,10 +169,10 @@ class Topbar extends Component {
         <Container>
           <div>
             <Link className="logo" to="/">
-                <img src={logodark} id="brandLogo" height="24" alt="Inpres logo" />
+                <img src={logodark} id="brandLogo" height="24" alt="Mecht.Ai logo" />
               </Link>
             {/* <a className="logo" href="/">
-              <img src={logodark} height="24" className="logo-light-mode" alt="INPRES logo" />
+              <img src={logodark} height="24" className="logo-light-mode" alt="Mecht.Ai logo" />
             </a> */}
             {/* {this.props.hasDarkTopBar ? (
                 <a className="logo" href="/">
@@ -200,7 +194,7 @@ class Topbar extends Component {
                 
                 <div className="buy-button">
                   <a
-                    href="https://portal.inpres.com/register"
+                    href="https://mecht.ai/register"
                     target="_blank"
                     rel="noopener noreferrer"
                     id="buyButton"
@@ -210,7 +204,7 @@ class Topbar extends Component {
                   </a>
                   &nbsp;
                   <a
-                    href="https://portal.inpres.com/login"
+                    href="https://mecht.ai/login"
                     target="_blank"
                     rel="noopener noreferrer"
                     id="buyButton"

@@ -14,10 +14,10 @@ class AppStore extends Component {
                    {i18next.t('app.description')}
                 </p>
                 <div className="my-12">
-                    <a href="https://apps.apple.com/ru/app/inpres/id1481627273" className="btn btn-lg btn-dark mt-2 mr-2">
+                    <a href="https://apps.apple.com/ru/app/Mecht.Ai/id1481627273" className="btn btn-lg btn-dark mt-2 mr-2">
                       <i className="mdi mdi-apple"></i><span>App Store</span>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.inpres.inpres" className="btn btn-lg btn-dark mt-2 ml-1">
+                    <a href="https://play.google.com/store/apps/details?id=com.Mecht.Ai.Mecht.Ai" className="btn btn-lg btn-dark mt-2 ml-1">
                       <i className="mdi mdi-google-play"></i><span>Google Play</span>
                     </a>
                   </div>

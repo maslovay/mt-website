@@ -161,7 +161,7 @@ class SmartGlassesGallery extends Component {
                     </li>
                   </ul>
                   <div className="mt-4">
-                    <a href="mailto:info@inpres.com?subject=Buy smart glasses" className="btn btn-primary">
+                    <a href="mailto:info@Mecht.Ai.com?subject=Buy smart glasses" className="btn btn-primary">
                     {i18next.t('smartGlasses.gallery.button')}
                     </a>
                   </div>

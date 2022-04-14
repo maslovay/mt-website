@@ -67,7 +67,7 @@ class Main extends Component {
           </Container>
           </section>
           <br/><br/>
-          <MainFeatures /> 
+          {/* <MainFeatures />  */}
           <MainHowItWork />
           <MainIndustries />
           <Trial2 /> 

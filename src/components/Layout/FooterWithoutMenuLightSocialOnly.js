@@ -47,7 +47,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                     </a>
                   </li> */}
                   <li className="list-inline-item mb-0 ml-1">
-                    <a href="mailto:info@inpres.com" className="rounded mr-1">
+                    <a href="mailto:info@Mecht.Ai.com" className="rounded mr-1">
                       <i>
                         <FeatherIcon
                           icon="at-sign"

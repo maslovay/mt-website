@@ -1,51 +1,51 @@
 {
     "translations": {
         "pageData": {
-            "appName": "Inpres",
+            "appName": "Mecht.Ai",
             "main":{
                 "main": "assistance and monitoring for mobile employees",
                 "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
-                "keywords" :"inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" :"Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "pricing": {
                 "main": "pricing plans",
                 "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "glasses": {
                 "main": "smart glasses",
                 "description" : "Wearable smart glasses for mobile workers that do not interfere with work and help to do it more efficiently",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "clientService": {
                 "main": "client service measure with AI",
-                "description" : "Inpres smart glasses detects face mimics with neural network. The system collects data on the emotions of customers that the employee met",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "description" : "Mecht.Ai smart glasses detects face mimics with neural network. The system collects data on the emotions of customers that the employee met",
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "locationTracking": {
                 "main": "employees location tracking",
-                "description" : "Automated work tracking based on custom locations and employees routes with help of Inpres app.",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "description" : "Automated work tracking based on custom locations and employees routes with help of Mecht.Ai app.",
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "onlineTimesheet": {
                 "main": "online timesheets",
                 "description" : "Track active and idle time per mobile employee and get rid of bottlenecks in your workflow.",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "remoteExpert":{
                 "main": "remote expert",
                 "description" : "Connects global workforce and enables mobile employees to get assistance from an expert remotely.",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "tagsTracking": {
                 "main": "QR code tags tracking",
-                "description" : "Hands free automatic QR code tags scanning with help of Inpres smart glasses.",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "description" : "Hands free automatic QR code tags scanning with help of Mecht.Ai smart glasses.",
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "timeTracking": {
                 "main": "time tracking",
                 "description" : "Track employees working time and get the insights you need. Find and fix money leaks",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "industries": {
                 "cleaning": "cleaning",
@@ -58,8 +58,8 @@
             },
             "industriesCommon": {
                 "main": "industries",
-                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
-                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "description" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "Mecht.Ai, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             }
         },
         "common": {
@@ -77,13 +77,13 @@
             "feature2": "Time tracking",
             "feature2description": "Track employees working time and get the insights you need. Find and fix money leaks.",
             "feature3": "Location tracking",
-            "feature3description": "Automated work tracking based on custom locations and employees routes with help of Inpres app.",
+            "feature3description": "Automated work tracking based on custom locations and employees routes with help of Mecht.Ai app.",
             "feature4": "Online timesheet",
             "feature4description": "Track active and idle time per mobile employee and get rid of bottlenecks in your workflow.",
             "feature5": "Client service control",
-            "feature5description": "Automatic AI client emotion recognition with Inpres smart glasses and mobile app.",
+            "feature5description": "Automatic AI client emotion recognition with Mecht.Ai smart glasses and mobile app.",
             "feature6": "Tags tracking",
-            "feature6description": "Hands free automatic QR code tags scanning with help of Inpres smart glasses.",
+            "feature6description": "Hands free automatic QR code tags scanning with help of Mecht.Ai smart glasses.",
             "industry1": "Constructing",
             "industry2": "Landscaping",
             "industry3": "Delivery",
@@ -102,7 +102,7 @@
         },
         "commonComponents":{
             "givesYou":{
-                "title" : "Inpres gives you",
+                "title" : "Mecht.Ai gives you",
                 "description": "",
                 "bullit1" : "Quick insights",
                 "bullit1description" : "Better understand what types of jobs generate the most profit.",
@@ -117,28 +117,28 @@
         "home": {
             "main": {
                 "title" :  "Assistance and monitoring of mobile employees",
-                "description" :  "Inpres helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Inpres mobile app"
+                "description" :  "Mecht.Ai helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Mecht.Ai mobile app"
             },
             
             "features":{
                 "title": "Key features",
-                "description": "Inpres provide you comlex service for assistance and controlling mobile employees"
+                "description": "Mecht.Ai provide you comlex service for assistance and controlling mobile employees"
             },
 
             "howItWork": {
-                "title": "How Inpres works",
+                "title": "How Mecht.Ai works",
                 "description": "Remote expert is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
                 "step3": "Increase efficiency",
-                "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
+                "step3Description": "You can call your employees with FPV video or track their activity with help of Mecht.Ai analytics portal"
             },
 
             "industries":{
                 "title": "List of industries",
-                "description": "Inpres service will increase the employees efficience, find and fix money leaks in different areas",
+                "description": "Mecht.Ai service will increase the employees efficience, find and fix money leaks in different areas",
                 "manufactoring": "Manufactoring",
                 "oilgas": "Oil&Gas",
                 "landscaping": "Landscaping",
@@ -155,7 +155,7 @@
         "timetracking": {
             "main": {
                 "title": "Easy and accurate employees time tracking",
-                "description": "Inpres time tracking software is unique in that it was built to solve our own challenges of tracking work hours. Combining user-friendly time tracking apps with in-depth reports and payments gives you everything you need to track employee hours. It’s a complete work management platform with accurate time tracking software at its core",
+                "description": "Mecht.Ai time tracking software is unique in that it was built to solve our own challenges of tracking work hours. Combining user-friendly time tracking apps with in-depth reports and payments gives you everything you need to track employee hours. It’s a complete work management platform with accurate time tracking software at its core",
                 "button" : "Start free trial"
             },
             "howItWork": {
@@ -164,9 +164,9 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
                 "step3": "Track employees work time",
-                "step3Description": "You can track employees working time and activity with help of Inpres analytics portal"
+                "step3Description": "You can track employees working time and activity with help of Mecht.Ai analytics portal"
             },
             "benefitsRow": {
                 "title": "Benefits of smarter time tracking software",
@@ -176,7 +176,7 @@
             },
             "effect": {
                 "title": "Track and improve employee KPIs",
-                "description": "Inpres automatically measure different types of employees performance indicators. Service compares indicators between workers and give you insights how to improve the perforformance, find and fix money leaks. Indicators Inpres track:",
+                "description": "Mecht.Ai automatically measure different types of employees performance indicators. Service compares indicators between workers and give you insights how to improve the perforformance, find and fix money leaks. Indicators Mecht.Ai track:",
                 "effect1": "Employees total work time",
                 "effect2": "Workload share",
                 "effect3": "Location heat map and routes",
@@ -188,20 +188,20 @@
             },
             "benefits": {
                 "title": "Instantly improve productivity",
-                "description": "It’s simple psychology. When your team tracks time with Inpres, everyone is more aware of how they're spending each minute of their day. This improves focus and keeps your team on task."
+                "description": "It’s simple psychology. When your team tracks time with Mecht.Ai, everyone is more aware of how they're spending each minute of their day. This improves focus and keeps your team on task."
             }
         },
         "remoteExpert": {
-            "title" : "Inpres smart glasses and mobile app enabling remote assistance to support your frontline workers with real-time feedback and information from a distant expert",
+            "title" : "Mecht.Ai smart glasses and mobile app enabling remote assistance to support your frontline workers with real-time feedback and information from a distant expert",
             "howItWork": {
                 "title": "How remote expert solution works",
                 "description": "Remote expert is a software solution based on smart glasses connected to employees smartphone to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
                 "step3": "Assist your employee",
-                "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
+                "step3Description": "You can call your employees with FPV video or track their activity with help of Mecht.Ai analytics portal"
             },
             "benefits": {
                 "title": "Transform your frontline workforce",
@@ -215,7 +215,7 @@
                 "benefit4": "Encrypted data",
                 "benefit4description": "We use Transport Layer Security (TLS 1.2) encryption for all transmitted data.",
                 "benefit5": "Cloud based or on-premises",
-                "benefit5description": "The Inpres service can run in the cloud or in the company's infrastructure",
+                "benefit5description": "The Mecht.Ai service can run in the cloud or in the company's infrastructure",
                 "benefit6": "Low traffic",
                 "benefit6description": "Per-to-per connection with end-to-end encryption WebRTC"
             },
@@ -237,12 +237,12 @@
         },
         "locationtracking": {
             "main": {
-                "title": "See who is working when and where with Inpres app",
-                "description": "INPRES time tracking software is unique in that it was built to solve our own challenges of tracking work hours. Combining user-friendly time tracking apps with in-depth reports and payments gives you everything you need to track employee hours. It’s a complete work management platform with accurate time tracking software at its core"
+                "title": "See who is working when and where with Mecht.Ai app",
+                "description": "Mecht.Ai time tracking software is unique in that it was built to solve our own challenges of tracking work hours. Combining user-friendly time tracking apps with in-depth reports and payments gives you everything you need to track employee hours. It’s a complete work management platform with accurate time tracking software at its core"
             },
             "benefits": {
                 "title": "Instantly improve productivity",
-                "description": "It’s simple psychology. When your team tracks time with Inpres, everyone is more aware of how they're spending each minute of their day. This improves focus and keeps your team on task.",
+                "description": "It’s simple psychology. When your team tracks time with Mecht.Ai, everyone is more aware of how they're spending each minute of their day. This improves focus and keeps your team on task.",
                 "benefit1" : "How long workers spend at each job",
                 "benefit1description" : "Create a job site on the map and each team member will be automatically clocked in and out when they enter the area.",
                 "benefit2" : "When jobs go over-budget",
@@ -256,17 +256,17 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to i smartphone",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Mecht.Ai smart glasses, connected to i smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
             "routes":
             {
                 "title": "Track employees routes with FPV photos",
-                "description": "Inpres Android app collects employees location in background and makes first person view photos. This data helps you to get insights:",
+                "description": "Mecht.Ai Android app collects employees location in background and makes first person view photos. This data helps you to get insights:",
                 "bullit1": "Routes on map",
                 "bullit2": "Timestamp on each point",
-                "bullit3": "First person view screenshot from Inpres smart glass for each point"
+                "bullit3": "First person view screenshot from Mecht.Ai smart glass for each point"
             },
             "heatmap":
             {
@@ -276,7 +276,7 @@
             "alerts":
             {
                 "title": "Keep track of important notifications",
-                "description": "Inpres can track workers outdoor (based on GPS) and indoor (based on QR code tags) location. You can define the alerts you want to receive based on user location.",
+                "description": "Mecht.Ai can track workers outdoor (based on GPS) and indoor (based on QR code tags) location. You can define the alerts you want to receive based on user location.",
                 "bullit1": "Outdoor location enter",
                 "bullit2": "Outdoor location exit",
                 "bullit3": "Both",
@@ -286,22 +286,22 @@
         "onlineTimesheet": {
             "main": {
                 "title": "Accurate and automated timesheets",
-                "description": "Reduce administrative tasks, understand costs better, and manage your workforce more easily with timesheet software from Inpres."
+                "description": "Reduce administrative tasks, understand costs better, and manage your workforce more easily with timesheet software from Mecht.Ai."
             },
             "howItWork": {
                 "title": "How location tracking solution works",
-                "description": "Inpres online timesheets are automatically created based on  Inpres app data.",
+                "description": "Mecht.Ai online timesheets are automatically created based on  Mecht.Ai app data.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
             "alerts":
             {
                 "title": "Get automatic alerts",
-                "description": "Inpres service generates differnt types of alerts based on employees events.",
+                "description": "Mecht.Ai service generates differnt types of alerts based on employees events.",
                 "bullit1": "Workday start/finish",
                 "bullit2": "Call start/end",
                 "bullit3": "Location enter/exit",
@@ -311,12 +311,12 @@
         "clientService": {
             "main": {
                 "title": "Measure client satisfaction with AI",
-                "description": "Inpres smart glasses detects face mimics with neural network. The system collects data on the emotions of customers that the employee met."
+                "description": "Mecht.Ai smart glasses detects face mimics with neural network. The system collects data on the emotions of customers that the employee met."
             },
             "advantages":
             {
                 "title": "Client service insights",
-                "description": "Inpres automatically recognize client emotions without storing any client sensitive data. It follows GDPR rules and do now recognize and personalize faces, it only tracks the emotions. This feature can help you:",
+                "description": "Mecht.Ai automatically recognize client emotions without storing any client sensitive data. It follows GDPR rules and do now recognize and personalize faces, it only tracks the emotions. This feature can help you:",
                 "bullit1": "Measure client service with objective data",
                 "bullit2": "Compare employees by client service level",
                 "bullit3": "Get insights to impove client satisfaction"
@@ -325,7 +325,7 @@
         "tagsTracking": {
             "main": {
                 "title": "Scan QR code tags hands free",
-                "description": "Reduce administrative tasks, understand costs better, and manage your workforce more easily with timesheet software from Inpres."
+                "description": "Reduce administrative tasks, understand costs better, and manage your workforce more easily with timesheet software from Mecht.Ai."
             },
             "advantages":
             {
@@ -338,11 +338,11 @@
             },
             "howItWork": {
                 "title": "Hoц tags tracking solution works",
-                "description": "Tags is a software solution based on smart glasses, smartphones to scan QR codes with first person view Inpres camera.",
+                "description": "Tags is a software solution based on smart glasses, smartphones to scan QR codes with first person view Mecht.Ai camera.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Generate the tags",
-                "step2Description": "Create QR code tags you want to track with Inpres service. Pricing them and place them to places or goods you want to track. For tracking tags mobile workers need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "Create QR code tags you want to track with Mecht.Ai service. Pricing them and place them to places or goods you want to track. For tracking tags mobile workers need to wear Mecht.Ai smart glasses, connected to their smartphone",
                 "step3": "Use tags tracking software to generate reports",
                 "step3Description": "Managers can use tags tracking reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -367,7 +367,7 @@
         "smartGlasses": {
             "gallery": {
                 "price": "149",
-                "productName": "Inpres Smart glasses",
+                "productName": "Mecht.Ai Smart glasses",
                 "description" : "Device can be connected to any android smartphone with USB Type-C connector. Can be wear on head, cap or helmet",
                 "feature1" : "2mp Camera",
                 "feature2" : "USB-C connection",
@@ -380,7 +380,7 @@
                 "button" : "Buy"
             },
             "features":{
-                "title" : "Inpres Smart glasses",
+                "title" : "Mecht.Ai Smart glasses",
                 "description" : "Device can be connected to any android smartphone with USB Type-C connector ",
                 "feature1" : "2mp Camera",
                 "feature2" : "USB-C connection",
@@ -414,7 +414,7 @@
             "feature9": "On-premises"
         },
         "trial": {
-            "title": "Try Inpres free for 14 days",
+            "title": "Try Mecht.Ai free for 14 days",
             "description": "No credit card required. You can cancel subscription anytime.",
             "button": "Start my free trial"
         },
@@ -429,12 +429,12 @@
             "send_message": "Send request",
             "your_message": "Request",
             "about_us_header": "About us",
-            "about_us_description": "inpres is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+            "about_us_description": "Mecht.Ai is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         },
         "mobileapp": {
             "main": {
-                "title" : "Inpres mobile application",
-                "description" : "Android application for mobile workers. Please install it before start using Inpres service.",
+                "title" : "Mecht.Ai mobile application",
+                "description" : "Android application for mobile workers. Please install it before start using Mecht.Ai service.",
                 "feature1" : "Secure",
                 "feature2" : "Lightweight",
                 "feature3" : "Compatible with different smartphones",
@@ -450,7 +450,7 @@
             "send_message": "Send request",
             "your_message": "Request",
             "about_us_header": "About us",
-            "about_us_description": "Inpres is a IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+            "about_us_description": "Mecht.Ai is a IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         }
     }
 }
