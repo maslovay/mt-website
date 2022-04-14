@@ -1,0 +1,80 @@
+{
+  "name": "Inpres",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://inpres.com",
+  "dependencies": {
+    "@iconscout/react-unicons": "^1.1.5",
+    "aos": "^2.3.4",
+    "availity-reactstrap-validation": "^2.7.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.5.3",
+    "feather-icons-react": "^0.4.1",
+    "gatsby": "^4.11.2",
+    "i18next": "^20.2.2",
+    "i18next-browser-languagedetector": "^6.1.0",
+    "i18next-xhr-backend": "^3.2.2",
+    "npm": "^6.14.9",
+    "number-counter": "^1.0.3",
+    "react": "^17.0.1",
+    "react-background-slider": "^2.0.0",
+    "react-countdown-now": "^2.1.2",
+    "react-countup": "^4.3.3",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^17.0.1",
+    "react-fade-in": "^1.1.1",
+    "react-flatpickr": "^3.10.6",
+    "react-flex-carousel": "^1.1.0",
+    "react-flex-slider": "^6.3.1",
+    "react-ga": "^3.3.0",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.8.15",
+    "react-icons": "^3.11.0",
+    "react-image-lightbox": "^5.1.1",
+    "react-masonry-css": "^1.0.14",
+    "react-modal-video": "^1.2.6",
+    "react-parallax": "^3.1.2",
+    "react-responsive-carousel": "^3.2.10",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-scroll-parallax": "^2.3.5",
+    "react-scroll-to": "^3.0.0-beta.6",
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollspy-nav": "^1.2.4",
+    "react-slick": "^0.27.13",
+    "react-snap": "^1.23.0",
+    "react-star-ratings": "^2.3.0",
+    "react-typist": "^2.0.5",
+    "react-youtube": "^7.13.0",
+    "reactstrap": "^8.7.1",
+    "redux": "^4.0.5",
+    "sass": "^1.45.1",
+    "slick-carousel": "^1.8.1",
+    "webpack": "4.44.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+import React, { Component } from "react";
+import { Container, Row, Col } from "reactstrap";
+import saas1 from "../../assets/images/saas/classic02.png";
+import SectionTitleLeft from "../Shared/SectionTitleLeft";
+import i18next from 'i18next';
+
+class TagsTrackingAdmin extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      features: [
+        { title: i18next.t('onlineTimesheet.alerts.bullit1') },
+        { title: i18next.t('onlineTimesheet.alerts.bullit2') },
+        { title: i18next.t('onlineTimesheet.alerts.bullit3') },
+        { title: i18next.t('onlineTimesheet.alerts.bullit4') }
+      ]
+    };
+  }
+  render() {
+    return (
+      <React.Fragment>
+        <Container className="mt-100 mt-60">
+          <Row className="align-items-center">
+            <Col lg={6} md={6}>
+              <img src={saas1} className="img-fluid shadow rounded" alt="" />
+            </Col>
+            <Col lg={6} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+              <div className="section-title ms-lg-5">
+                <SectionTitleLeft
+                  title={i18next.t('onlineTimesheet.alerts.title')}
+                  desc={i18next.t('onlineTimesheet.alerts.description')}
+                  features={this.state.features}
+                  class=""
+                />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </React.Fragment>
+    );
+  }
+}
+
+export default TagsTrackingAdmin;
