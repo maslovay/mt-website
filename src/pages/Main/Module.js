@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img from "../../assets/images/camera_worker.png"
+import img from "../../assets/images/hardware_module.png"
 
-class RobotTypes extends Component {
+class Module extends Component {
 
   state = {
     features1: [
-      { title: i18next.t('home.robottypes.benefit1')},
-      { title: i18next.t('home.robottypes.benefit2')},
-      { title: i18next.t('home.robottypes.benefit3')},
-      { title: i18next.t('home.robottypes.benefit4')}
+      { title: i18next.t('home.hardware.benefit1')},
+      { title: i18next.t('home.hardware.benefit2')},
+      { title: i18next.t('home.hardware.benefit3')},
+      { title: i18next.t('home.hardware.benefit4')},
+      { title: i18next.t('home.hardware.benefit5')},
+      { title: i18next.t('home.hardware.benefit6')},
+      { title: i18next.t('home.hardware.benefit7')}
     ]
   };
 
@@ -21,8 +24,8 @@ class RobotTypes extends Component {
           <Row className="align-items-center">
             <Col lg="6" md="7" className="mt-5 mt-sm-0">
               <div className="section-title">
-                <h4 className="title mb-4">{i18next.t('home.robottypes.title')}</h4>
-                <p className="text-muted"> {i18next.t('home.robottypes.description')} </p>
+                <h4 className="title mb-4">{i18next.t('home.hardware.title')}</h4>
+                <p className="text-muted"> {i18next.t('home.hardware.description')} </p>
                 <ul
                   className="list-unstyled feature-list text-muted"
                   name="featurelines"
@@ -58,4 +61,4 @@ class RobotTypes extends Component {
   }
 }
 
-export default RobotTypes;
+export default Module;

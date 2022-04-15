@@ -57,7 +57,7 @@ class NavbarPage extends Component {
                 to="https://1.envato.market/landrickreactjs"
                 //target="_blank"
                 className="btn btn-primary"
-                href="https://portal.mecht.ai/signin"
+                href="https://portal.inpres.com/signin"
               >
                 {i18next.t('pageData.block.signin')}
               </a>
@@ -123,13 +123,13 @@ class NavbarPage extends Component {
                           <li>
                             <ul>
                                   <li >
-                                    <Link to="#" onClick={() => this._setLanguage('ru-RU')}> 
-                                      RU
+                                  <Link  to="#" onClick={() => this._setLanguage('en')}> 
+                                      EN
                                     </Link>
                                   </li>
                                   <li >
-                                  <Link  to="#" onClick={() => this._setLanguage('en')}> 
-                                      EN
+                                    <Link to="#" onClick={() => this._setLanguage('ru-RU')}> 
+                                      RU
                                     </Link>
                                   </li>
                             </ul>

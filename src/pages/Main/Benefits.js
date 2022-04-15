@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img from "../../assets/images/camera_worker.png"
+import img from "../../assets/images/remote_operators.png"
 
 class RobotTypes extends Component {
 

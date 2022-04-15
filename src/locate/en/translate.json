@@ -3,9 +3,9 @@
         "pageData": {
             "appName": "Mecht.ai",
             "main":{
-                "main": "robot remote control platform",
-                "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
-                "keywords" :"Mecht.Ai, remote expert, remote control, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "main": "platform for remote control transport and robots",
+                "description" : "The system consists of a module for controlling engines and mechanisms of a remote device and transmitting a video signal and telemetry, as well as an online platform for managing the device",
+                "keywords" :"Mecht.Ai, remote control, robot control, employee remote work, FPV control robot, remote robot control platform"
             },
             "block":{
                 "home": "Home",
@@ -25,67 +25,59 @@
         },
         "home": {
             "main": {
-                "title" :  "Platform for remotely controlled robots",
-                "description" :  "Mecht.Ai helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Mecht.Ai mobile app"
-            },
-            
-            "features":{
-                "title": "Key features",
-                "description": "Remotely controlled robots will be able to replace human labor in the tasks of delivery, rigging, utility services, when performing work in adverse conditions and in other labor-intensive tasks",
-                "feature1" : "feature1",
-                "description1" : "description1",
-                "feature2" : "feature1",
-                "description2" : "description1",
-                "feature3" : "feature1",
-                "description3" : "description1",
-                "feature4" : "feature1",
-                "description4" : "description1",
-                "feature5" : "feature1",
-                "description5" : "description1",
-                "feature6" : "feature1",
-                "description6" : "description1"
+                "title" :  "Platform for remote control transport and robots",
+                "description" :  "The system consists of a module for controlling engines and mechanisms of a remote device and transmitting a video signal and telemetry, as well as an online platform for managing the device"
             },
 
             "howItWork": {
                 "title": "How start using Mecht.Ai service",
                 "description": "Remote expert is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
-                "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
-                "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
-                "step3": "Increase efficiency",
-                "step3Description": "You can call your employees with FPV video or track their activity with help of Mecht.Ai analytics portal"
+                "step1": "Sign up in service",
+                "step1Description": "Contact us for creating your company account and send you hardware module for remote control",
+                "step2": "Install control module",
+                "step2Description": "Module for remote control can be installed on old analogue controlled or new digital devices",
+                "step3": "Start remote work",
+                "step3Description": "Create and manage tasks for remote operators. You can see task execution in real time"
             },
 
             "industries":{
                 "title": "List of industries",
-                "description": "Mecht.Ai service will increase the employees efficience, find and fix money leaks in different areas",
-                "manufactoring": "Manufactoring",
+                "description": "Mecht.ai service will increase the employees and process efficiency, find and fix money leaks in different areas",
+                "manufacturing": "Manufacturing",
                 "oilgas": "Oil&Gas",
                 "landscaping": "Landscaping",
                 "constructing": "Constructing",
-                "other": "Other",
                 "delivery": "Delivery",
-                "cleaning": "Cleaning",
-                "technician": "Technician",
                 "security": "Security",
-                "healthcare": "Healthcare",
                 "agriculture": "Agriculture"
             },
 
             "description":{
-                "title" : "Real time FPV platform",
-                "description" : "Mecht.ai help you to increase efficiency of you company services",
-                "benefit1" : "Web platform for remote (long distance) control of robots from home, office or other premises with the Internet",
+                "title" : "Platform scheme",
+                "description" : "Our real-time FPV platform helps to send the managing commands and receive video from remote device with no delays (<200 ms)",
+                "benefit1" : "Web platform for remote (long distance) control of robots from home, office or other places with the Internet",
                 "benefit2" : "Control is carried out using a conventional Sony Playstation joystick (or equivalent) and a PC (or tablet)",
                 "benefit3" : "The control is performed from the first person (FPV) using a camera mounted on the robot",
                 "benefit4" : "The operator can control the movement of the robot and perform other available actions using the function keys on the joystick",
                 "benefit5" : "The operator can connect to various robots (P2P) and perform tasks specified in the system"
             },
 
+            "hardware":{
+                "title" : "Hardware module",
+                "description" : "Mecht.ai help you to increase efficiency of your company services and reduce costs and risks",
+                "benefit1" : "ARM-based",
+                "benefit2" : "Wide angle camera",
+                "benefit3" : "GPS/GLONAS",
+                "benefit4" : "4G/5G",
+                "benefit5" : "ROS",
+                "benefit6" : "Battery (option)",
+                "benefit7" : "Lidar (option)"
+            },
+
+
             "benefits":{
-                "title" : "Benefits",
-                "description" : "Mecht.ai help you to increase efficiency of you company services",
+                "title" : "Platform benefits",
+                "description" : "Mecht.ai help you to increase efficiency of your company services and reduce costs and risks",
                 "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
                 "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
                 "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
@@ -93,12 +85,8 @@
             },
 
             "robottypes":{
-                "title" : "Robot types",
-                "description" : "You can use Mecht.ai remote controled hardware module and online service ",
-                "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
-                "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
-                "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
-                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+                "title" : "Where you can install Mecht.ai module?",
+                "description" : "You can install module for remote control on existing analogue controlled tractor, truck and other device, or use it with new digital delivery or industrial device"
             }
         },
         "contact": {
@@ -112,7 +100,7 @@
             "send_message": "Send request",
             "your_message": "Request",
             "about_us_header": "About us",
-            "about_us_description": "Mecht.Ai is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+            "about_us_description": "Mecht.ai is a IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         }
     }
 }

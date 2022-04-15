@@ -3,17 +3,17 @@
         "pageData": {
             "appName": "Mecht.ai",
             "main":{
-                "main": "robot remote control platform",
-                "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
-                "keywords" :"Mecht.Ai, remote expert, remote control, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+                "main": "платформа для дистанционного управления транспортом и роботами",
+                "description" : "Система состоит из модуля управления двигателями и механизмами удаленного устройства и передачи видеосигнала и телеметрии, а также онлайн-платформы для управления устройством",
+                "keywords" : "Mecht.Ai, дистанционное управление, управление роботом, удаленная работа сотрудников, робот управления FPV, платформа удаленного управления роботом"
             },
             "block":{
-                "home": "Home",
-                "features": "Features",
-                "howitwork" : "How it work",
-                "industries" : "Industries",
-                "contact" : "Contact",
-                "signin" : "Sign In"
+                "home": "Главная",
+                "features": "Функции",
+                "howitwork" : "Как работает",
+                "industries" : "Индустрии",
+                "contact" : "Контакты",
+                "signin" : "Войти"
             }
         },
         "common": {
@@ -21,88 +21,86 @@
             "language": "RU"
         },
         "footer": {
-            "about": "For cooperation and technology acquisition, please contact us."
+            "about": "Для сотрудничества и приобретения технологий пожалуйста свяжитесь с нами"
         },
         "home": {
             "main": {
-                "title" :  "Платформа",
-                "description" :  "Mecht.Ai helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Mecht.Ai mobile app"
+                "title" :  "Платформа для удаленного управления транспорта и роботов",
+                "description" :  "Система состоит из модуля управления двигателями и механизмами удаленного устройства и передачи видеосигнала и телеметрии, а также онлайн-платформы для управления устройством"
             },
-            
-            "features":{
-                "title": "Key features",
-                "description": "Remotely controlled robots will be able to replace human labor in the tasks of delivery, rigging, utility services, when performing work in adverse conditions and in other labor-intensive tasks",
-                "feature1" : "feature1",
-                "description1" : "description1",
-                "feature2" : "feature1",
-                "description2" : "description1",
-                "feature3" : "feature1",
-                "description3" : "description1",
-                "feature4" : "feature1",
-                "description4" : "description1",
-                "feature5" : "feature1",
-                "description5" : "description1",
-                "feature6" : "feature1",
-                "description6" : "description1"
-            },
+        
 
             "howItWork": {
-                "title": "How start using Mecht.Ai service",
-                "description": "Remote expert is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
-                "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
-                "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Mecht.Ai smart glasses connected to their smartphone",
-                "step3": "Increase efficiency",
-                "step3Description": "You can call your employees with FPV video or track their activity with help of Mecht.Ai analytics portal"
+                "title": "Как работает сервис?",
+                "step1": "Зарегистрируйтесь",
+                "step1Description": "Свяжитесь с нами для создания учетной записи вашей компании и отправки вам аппаратного модуля для удаленного управления",
+                "step2": "Установите модуль",
+                "step2Description": "Модуль дистанционного управления может быть установлен на старые аналоговые или новые цифровые устройства.",
+                "step3": "Начните удаленную работу",
+                "step3Description": "Создавайте и управляйте задачами для удаленных операторов. Вы можете видеть выполнение задачи в режиме реального времени"
             },
 
             "industries":{
-                "title": "List of industries",
-                "description": "Mecht.Ai service will increase the employees efficience, find and fix money leaks in different areas",
-                "manufactoring": "Manufactoring",
-                "oilgas": "Oil&Gas",
+                "title": "Где будет полезно?",
+                "description": "Сервис Mecht.ai повысит эффективность сотрудников и процессов, найдет и устранит утечки денег в разных сферах",
+                "manufacturing": "Производство",
+                "oilgas": "Добыча ресурсов",
                 "landscaping": "Landscaping",
-                "constructing": "Constructing",
-                "other": "Other",
-                "delivery": "Delivery",
-                "cleaning": "Cleaning",
-                "technician": "Technician",
-                "security": "Security",
-                "healthcare": "Healthcare",
-                "agriculture": "Agriculture"
+                "constructing": "Строительство",
+                "delivery": "Доставка",
+                "security": "Безопасность",
+                "agriculture": "Сельское хозяйство"
             },
 
             "description":{
-                "title" : "Real time platform",
-                "description" : "Mecht.ai help you to increase efficiency of you company services",
-                "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
-                "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
-                "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
-                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+                "title" : "Схема работы",
+                "description" : "Наша платформа FPV в реальном времени помогает отправлять управляющие команды и получать видео с удаленного устройства без задержек (<200 мс)",
+                "benefit1" : "Веб-платформа для удаленного (дальнего) управления роботами из дома, офиса или других мест, где есть Интернет",
+                "benefit2" : "Управление осуществляется с помощью обычного джойстика Sony Playstation (или аналога) и ПК (или планшета)",
+                "benefit3" : "Управление осуществляется от первого лица (FPV) с помощью камеры, установленной на роботе.",
+                "benefit4" : "Оператор может управлять движением робота и выполнять другие доступные действия с помощью функциональных клавиш на джойстике.",
+                "benefit5" : "Оператор может подключаться к различным роботам (P2P) и выполнять назначенные в системе задачи"
             },
 
+            "hardware":{
+                "title" : "Модуль управления",
+                "description" : "Mecht.ai поможет вам повысить эффективность услуг вашей компании и снизить затраты и риски",
+                "benefit1" : "ARM-процессор",
+                "benefit2" : "Широкоугольная камера",
+                "benefit3" : "GPS/GLONAS",
+                "benefit4" : "4G/5G",
+                "benefit5" : "ROS",
+                "benefit6" : "Батарея (опция)",
+                "benefit7" : "Лидар (опция)"
+            },
+
+
             "benefits":{
-                "title" : "Benefits",
-                "description" : "Mecht.ai help you to increase efficiency of you company services",
-                "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
-                "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
-                "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
-                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+                "title" : "Преимущества платформы",
+                "description" : "Mecht.ai поможет вам повысить эффективность услуг вашей компании и снизить затраты и риски",
+                "benefit1" : "Час работы дистанционно управляемого робота стоит в 1,7 раза дешевле, чем выполнение аналогичных функций человеком",
+                "benefit2" : "В единицу времени оператор удаленного робота может выполнить в 1,2 раза больше задач, чем при их физическом выполнении",
+                "benefit3" : "Технология «бесконечный заказ», аналогичная той, что используется в службах такси, сокращает время простоя",
+                "benefit4" : "Прозрачность процессов позволяет постоянно улучшать процессы и снижать риски"
+            },
+
+            "robottypes":{
+                "title" : "Где Вы можете использовать Mecht.ai модуль?",
+                "description" : "Вы можете установить модуль дистанционного управления на существующий трактор, грузовик и другое устройство с аналоговым управлением или использовать его с новым цифровым доставочным или промышленным устройством."
             }
         },
         "contact": {
-            "contact_us": "Contact Us:",
-            "send_succesfully": "Successfully sent",
-            "your_name": "Your name",
-            "your_email": "Your email",
-            "your_phone": "Your phone",
-            "subject": "Subject",
-            "request": "Request",
-            "send_message": "Send request",
-            "your_message": "Request",
-            "about_us_header": "About us",
-            "about_us_description": "Mecht.Ai is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+            "contact_us": "Свяжитесь с нами:",
+            "send_succesfully": "Успешно отправлено",
+            "your_name": "Ваше имя",
+            "your_email": "Ваш имэйл",
+            "your_phone": "Ваш телефон",
+            "subject": "Тема",
+            "request": "Запрос",
+            "send_message": "Отправить запрос",
+            "your_message": "Запрос",
+            "about_us_header": "О нас",
+            "about_us_description": "Mecht.ai — IT-компания, специализирующаяся на разработке и внедрении инновационных технологий в сфере удаленного управления роботами."
         }
     }
 }

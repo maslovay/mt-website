@@ -35,13 +35,13 @@ class Contact extends Component {
         method: 'get',
         url: 'https://tbaf.azurewebsites.net/api/SendSalesEmail',
         params:{
-          to: "sales@Mecht.Ai.com",
+          to: "sales@trashback.ru",
           name: this.state.name,
           email: this.state.email,
           phone: this.state.phone,
           request: this.state.message,
           sub: "Mecht.Ai - from site contact page "
-        },
+        }
       })
       .then(res => {
         console.log(res)

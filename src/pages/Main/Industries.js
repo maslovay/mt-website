@@ -72,7 +72,7 @@ class Industries extends Component {
                       </svg>
                   </div>
                   <Media body style={{paddingLeft: "20px"}}>
-                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.manufactoring')}</h4>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.manufacturing')}</h4>
                   </Media>
                 </div>
               {/* </a> */}

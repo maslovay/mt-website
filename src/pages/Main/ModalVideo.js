@@ -7,7 +7,7 @@ import ModalVideo from "react-modal-video";
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 
 //Import Images
-import laptop from "../../assets/images/camera_worker.png";
+import laptop from "../../assets/images/remote_controlled_robots.png";
 
 class ModalVideoSection extends Component {
   constructor(props) {

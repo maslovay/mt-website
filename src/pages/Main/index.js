@@ -5,13 +5,14 @@ import "../../../node_modules/aos/dist/aos.css";
 
 import Section from "./Section";
 import Description from "./Description";
-import RobotTypes from "./RobotTypes";
+import Banner from "./Banner";
 import ModalVideoSection from "./ModalVideo";
 import Shape from "./Shape";
 import HowItWork from "./HowItWork";
 import Contact from "./Contact";
 import Benefits from "./Benefits";
 import Industries from "./Industries";
+import Module from "./Module";
 
 import CustomHelmet from "../../components/Service/CustomHelmet";
 import ReactGA from 'react-ga';
@@ -88,8 +89,10 @@ class Index extends Component {
 
         <section className="section pb-0" id="service">
           <Description />
+          <Module />
           <Benefits />
-          <RobotTypes />
+          <br/><br/>
+          <Banner />
         </section>
           <HowItWork />
           <Shape />
