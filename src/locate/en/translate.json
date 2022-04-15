@@ -5,7 +5,8 @@
             "main":{
                 "main": "platform for remote control transport and robots",
                 "description" : "The system consists of a module for controlling engines and mechanisms of a remote device and transmitting a video signal and telemetry, as well as an online platform for managing the device",
-                "keywords" :"Mecht.Ai, remote control, robot control, employee remote work, FPV control robot, remote robot control platform"
+                "keywords" :"Mecht.Ai, remote control, robot control, employee remote work, FPV control robot, remote robot control platform",
+                "image" : "/mecht.ai_scheme.png"
             },
             "block":{
                 "home": "Home",
