@@ -64,7 +64,7 @@
 
             "hardware":{
                 "title" : "Hardware module",
-                "description" : "Mecht.ai help you to increase efficiency of your company services and reduce costs and risks",
+                "description" : "Mecht.ai module is compact and efficient. It can be installed on different tipe of transport or robots",
                 "benefit1" : "ARM-based",
                 "benefit2" : "Wide angle camera",
                 "benefit3" : "GPS/GLONAS",
@@ -74,6 +74,16 @@
                 "benefit7" : "Lidar (option)"
             },
 
+            "semiautonomous":{
+                "title" : "Semi-autonomous options",
+                "description" : "Our module offers you semi-autonomus features. They will help you to reduce costs and improve control precision",
+                "benefit1" : "Collision avoidance system",
+                "benefit1description" : "CAS  is an advanced driver-assistance system designed to prevent or reduce the severity of a collision",
+                "benefit2" : "Autonomous tracking",
+                "benefit2description" : "The autonomous tracking and navigation controller system relies on state-of-the-art outdoor navigation systems combining LIDAR, GPS and computer vision techniques.",
+                "benefit3" : "Сontrol algorithm ",
+                "benefit3description" : "You can define control algorith, that consist of coordinates, commands and location comands to robot."
+            },
 
             "benefits":{
                 "title" : "Platform benefits",

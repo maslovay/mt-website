@@ -13,6 +13,7 @@ import Contact from "./Contact";
 import Benefits from "./Benefits";
 import Industries from "./Industries";
 import Module from "./Module";
+import SemiAutonomous from './SemiAutonomous';
 
 import CustomHelmet from "../../components/Service/CustomHelmet";
 import ReactGA from 'react-ga';
@@ -91,6 +92,7 @@ class Index extends Component {
           <Description />
           <Module />
           <Benefits />
+          <SemiAutonomous />
           <br/><br/>
           <Banner />
         </section>
