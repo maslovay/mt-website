@@ -10,7 +10,8 @@ class RobotTypes extends Component {
       { title: i18next.t('home.benefits.benefit1')},
       { title: i18next.t('home.benefits.benefit2')},
       { title: i18next.t('home.benefits.benefit3')},
-      { title: i18next.t('home.benefits.benefit4')}
+      { title: i18next.t('home.benefits.benefit4')},
+      { title: i18next.t('home.benefits.benefit5')}
     ]
   };
 

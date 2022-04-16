@@ -92,7 +92,8 @@
                 "benefit1" : "An hour of work of a remotely controlled robot costs 1.7 times cheaper than performing similar functions by a person",
                 "benefit2" : "In a unit of time, the operator of a remote robot can perform 1.2 more tasks than when performing them physically.",
                 "benefit3" : "The “endless order” technology, similar to that in taxi services, reduces downtime",
-                "benefit4" : "Process transparency enables continuous process improvement and risk reduction"
+                "benefit4" : "Process transparency enables continuous process improvement and risk reduction",
+                "benefit5" : "More energy efficient. All energy is spent on the delivery of the cargo, and not on the delivery of the cargo and the driver"
             },
 
             "robottypes":{
