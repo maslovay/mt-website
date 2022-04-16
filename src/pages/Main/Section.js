@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
 
 import homeShape from "../../assets/images/saas/home-shape.png";
-import homeImg from "../../assets/images/saas/home.png";
+import homeImg from "../../assets/images/mechtai_main.png";
 
 class Section extends Component {
   render() {
