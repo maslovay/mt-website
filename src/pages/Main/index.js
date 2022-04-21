@@ -18,6 +18,7 @@ import SemiAutonomous from './SemiAutonomous';
 import CustomHelmet from "../../components/Service/CustomHelmet";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-G3CSMVPNW7');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Index extends Component {
   constructor(props, context) {
