@@ -52,9 +52,9 @@ class ModalVideoSection extends Component {
             </Col>
           </Row>
           <ModalVideo
-            channel="vimeo"
+            channel="youtube"
             isOpen={this.state.isOpen}
-            videoId="287684225"
+            videoId="1YvQT9OT8uk"
             onClose={() => this.setState({ isOpen: false })}
           />
         </Container>
