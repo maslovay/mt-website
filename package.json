@@ -75,5 +75,8 @@
   },
   "devDependencies": {
     "gulp-sass": "^5.1.0"
-  }
+  },
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
+  }  
 }
