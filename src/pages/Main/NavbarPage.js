@@ -52,7 +52,7 @@ class NavbarPage extends Component {
                 <img src={logodark} height="44" alt="" />
               </Link>
             </div>
-            <div className="buy-button">
+            {/* <div className="buy-button">
               <a
                 to="https://1.envato.market/landrickreactjs"
                 //target="_blank"
@@ -61,7 +61,7 @@ class NavbarPage extends Component {
               >
                 {i18next.t('pageData.block.signin')}
               </a>
-            </div>
+            </div> */}
             <div className="menu-extras">
               <div className="menu-item">
                 <Link
